@@ -41,6 +41,12 @@ android {
 
 dependencies {
 
+    //Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+
+    implementation(libs.androidx.lifecycle.viewmodel)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
